@@ -1,9 +1,15 @@
 import React from 'react'
 import { Link } from 'gatsby'
+import Layout from '../components/Layout'
 
 export default () => (
-  <div style={{ margin: `3rem auto`, maxWidth: 600 }}>
+  <Layout>
     <Link to='/about-css-modules'>CSS Modules</Link>
+    <h1>Hi! I'm building a fake Gatsby site as part of a tutorial!</h1>
+    <p>
+      What do I like to do? Lots of course but definitely enjoy building
+      websites.
+    </p>
     <h1>Richard Hamming on Luck</h1>
     <div>
       <p>
@@ -26,5 +32,5 @@ export default () => (
       </blockquote>
     </div>
     <p>Posted April 09, 2011</p>
-  </div>
+  </Layout>
 )
