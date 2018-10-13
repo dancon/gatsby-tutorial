@@ -39,12 +39,6 @@ export default ({ data }) => {
           )
         })
       }
-      <div>
-        <img
-          src="https://2.bp.blogspot.com/-BMP2l6Hwvp4/TiAxeGx4CTI/AAAAAAAAD_M/XlC_mY3SoEw/s1600/panda-group-eating-bamboo.jpg"
-          alt="Group of pandas eating bamboo"
-        />
-      </div>
       <Link to='/about-css-modules'>CSS Modules</Link>
       <h1>Hi! I'm building a fake Gatsby site as part of a tutorial!</h1>
       <p>
