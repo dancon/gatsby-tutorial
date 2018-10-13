@@ -19,17 +19,22 @@ export default ({ data }) => {
             <div key={node.id} className={css`
               margin-bottom: ${rhythm(1/2)};
             `}>
-              <h3 className={css`
-                margin-bottom: ${rhythm(1/4)};
+              <Link to={node.fields.slug} className={css`
+                text-decoration: none;
+                color: inherit;
               `}>
-                { node.frontmatter.title } -- 
-                <span className={css`
-                  color: #bbb;
+                <h3 className={css`
+                  margin-bottom: ${rhythm(1/4)};
                 `}>
-                  {' '}{ node.frontmatter.date }
-                </span>
-              </h3>
-              { node.excerpt }
+                  { node.frontmatter.title } -- 
+                  <span className={css`
+                    color: #bbb;
+                  `}>
+                    {' '}{ node.frontmatter.date }
+                  </span>
+                </h3>
+                <p>{ node.excerpt }</p>
+              </Link>
             </div>
           )
         })
@@ -84,7 +89,10 @@ export const query = graphql`
             date
           },
           excerpt,
-          html
+          html,
+          fields {
+            slug
+          }
         }
       }
     }
