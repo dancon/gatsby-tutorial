@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[4],{148:function(e,n,t){"use strict";t.r(n);var a=t(0),o=t.n(a),r=t(164),c=t.n(r),l=function(e){var n=e.children;return o.a.createElement("div",{className:c.a.container},n)};n.default=function(){return o.a.createElement(l,null,o.a.createElement("h1",null,"About CSS Modules"),o.a.createElement("p",null,"CSS Modules are cool"))}},164:function(e,n,t){e.exports={container:"index-module--container--2t0s4"}}}]);
+//# sourceMappingURL=component---src-pages-about-css-modules-js-6ab1f72178198cb8645c.js.map
