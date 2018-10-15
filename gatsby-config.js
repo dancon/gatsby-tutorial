@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: 'gatsby-tutorial',
   siteMetadata: {
     title: `Pandas Eating Lots`
   },
